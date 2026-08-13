@@ -1,0 +1,43 @@
+{
+  "id": 8,
+  "slug": "banana-smoothie-bowl",
+  "title": "Acai Banana Smoothie Bowl",
+  "description": "A thick, vibrant smoothie bowl packed with frozen acai and bananas, topped with granola, fresh berries, coconut flakes, and honey.",
+  "image": "/images/banana-smoothie-bowl.jpg",
+  "category": "Breakfast",
+  "cuisine": "Modern",
+  "prepTime": 10,
+  "cookTime": 0,
+  "servings": 2,
+  "difficulty": "Easy",
+  "tags": ["breakfast", "healthy", "vegan", "smoothie", "bowls"],
+  "ingredients": [
+    "2 frozen acai packs (100g each)",
+    "3 frozen bananas, sliced",
+    "1/2 cup coconut milk",
+    "1 cup mixed granola",
+    "1/2 cup fresh blueberries",
+    "1/2 cup fresh strawberries, sliced",
+    "2 tbsp coconut flakes, toasted",
+    "2 tbsp almond butter",
+    "1 tbsp chia seeds",
+    "1 tbsp honey or agave syrup",
+    "1 kiwi, sliced"
+  ],
+  "instructions": [
+    "Blend frozen acai packs, frozen bananas, and coconut milk until very thick and smooth. Use minimal liquid to keep it bowl-consistency.",
+    "Pour smoothie base into two bowls.",
+    "Arrange toppings in sections: granola, blueberries, strawberries, and kiwi slices.",
+    "Scatter coconut flakes and chia seeds over the top.",
+    "Add a dollop of almond butter to each bowl.",
+    "Drizzle with honey and serve immediately."
+  ],
+  "nutrition": {
+    "calories": 380,
+    "protein": "8g",
+    "carbs": "68g",
+    "fat": "12g"
+  },
+  "author": "Chef Luna",
+  "publishedAt": "2024-05-01"
+}

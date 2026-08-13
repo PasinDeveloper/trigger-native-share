@@ -1,0 +1,43 @@
+{
+  "id": 6,
+  "slug": "greek-salad",
+  "title": "Classic Greek Salad",
+  "description": "A vibrant, refreshing salad from the Mediterranean with ripe tomatoes, cucumbers, Kalamata olives, and a generous slab of feta cheese.",
+  "image": "/images/greek-salad.jpg",
+  "category": "Salad",
+  "cuisine": "Greek",
+  "prepTime": 15,
+  "cookTime": 0,
+  "servings": 4,
+  "difficulty": "Easy",
+  "tags": ["salad", "greek", "vegetarian", "healthy", "lunch"],
+  "ingredients": [
+    "4 large ripe tomatoes, cut into wedges",
+    "2 large cucumbers, sliced into half-moons",
+    "1 large red onion, thinly sliced",
+    "200g authentic Greek feta cheese block",
+    "150g Kalamata olives",
+    "1 green bell pepper, sliced",
+    "6 tbsp extra virgin olive oil",
+    "2 tbsp red wine vinegar",
+    "1 tsp dried Greek oregano",
+    "Salt and freshly ground black pepper"
+  ],
+  "instructions": [
+    "Combine tomatoes, cucumbers, red onion, green pepper, and olives in a large bowl.",
+    "Whisk together olive oil, red wine vinegar, salt, and pepper to make the dressing.",
+    "Pour dressing over the vegetables and toss gently.",
+    "Place the whole block of feta on top — do not crumble it.",
+    "Drizzle a little extra olive oil over the feta.",
+    "Sprinkle dried oregano over everything.",
+    "Let rest 5 minutes to allow flavors to meld before serving."
+  ],
+  "nutrition": {
+    "calories": 280,
+    "protein": "9g",
+    "carbs": "16g",
+    "fat": "22g"
+  },
+  "author": "Chef Nikos",
+  "publishedAt": "2024-04-02"
+}

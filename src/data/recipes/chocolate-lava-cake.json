@@ -1,0 +1,44 @@
+{
+  "id": 5,
+  "slug": "chocolate-lava-cake",
+  "title": "Dark Chocolate Lava Cake",
+  "description": "Individual molten chocolate cakes with a warm, gooey center. Simple yet utterly decadent — the perfect restaurant-quality dessert at home.",
+  "image": "/images/chocolate-lava-cake.jpg",
+  "category": "Dessert",
+  "cuisine": "French",
+  "prepTime": 15,
+  "cookTime": 12,
+  "servings": 4,
+  "difficulty": "Medium",
+  "tags": ["dessert", "chocolate", "french", "decadent"],
+  "ingredients": [
+    "200g 70% dark chocolate, chopped",
+    "100g unsalted butter, plus extra for greasing",
+    "3 large eggs",
+    "3 egg yolks",
+    "80g caster sugar",
+    "50g all-purpose flour",
+    "Pinch of salt",
+    "1 tsp vanilla extract",
+    "Cocoa powder for dusting",
+    "Vanilla ice cream to serve"
+  ],
+  "instructions": [
+    "Preheat oven to 200°C (390°F). Butter 4 ramekins and dust with cocoa powder.",
+    "Melt chocolate and butter together in a heatproof bowl over simmering water. Stir until smooth. Let cool slightly.",
+    "Beat eggs, egg yolks, and sugar with an electric mixer until pale and thick, about 3 minutes.",
+    "Fold chocolate mixture into the egg mixture gently.",
+    "Sift in flour and salt, fold until just combined.",
+    "Divide batter equally among prepared ramekins.",
+    "Bake exactly 10-12 minutes — the edges should be set but center should still wobble.",
+    "Run a knife around the edge and invert onto plates. Serve immediately with vanilla ice cream."
+  ],
+  "nutrition": {
+    "calories": 560,
+    "protein": "10g",
+    "carbs": "52g",
+    "fat": "36g"
+  },
+  "author": "Chef Marie",
+  "publishedAt": "2024-03-18"
+}

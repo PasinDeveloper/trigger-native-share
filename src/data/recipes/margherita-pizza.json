@@ -1,0 +1,46 @@
+{
+  "id": 10,
+  "slug": "margherita-pizza",
+  "title": "Neapolitan Margherita Pizza",
+  "description": "The authentic Neapolitan pizza with San Marzano tomato sauce, fresh mozzarella di bufala, and basil leaves on a perfectly blistered crust.",
+  "image": "/images/margherita-pizza.jpg",
+  "category": "Pizza",
+  "cuisine": "Italian",
+  "prepTime": 90,
+  "cookTime": 10,
+  "servings": 2,
+  "difficulty": "Hard",
+  "tags": ["pizza", "italian", "vegetarian", "dinner", "classic"],
+  "ingredients": [
+    "300g Tipo 00 flour",
+    "200ml lukewarm water",
+    "7g active dry yeast",
+    "1 tsp sea salt",
+    "1 tsp sugar",
+    "1 tbsp olive oil",
+    "200g San Marzano canned tomatoes",
+    "250g fresh mozzarella di bufala",
+    "Large handful fresh basil leaves",
+    "Extra virgin olive oil for drizzling",
+    "Sea salt"
+  ],
+  "instructions": [
+    "Dissolve yeast and sugar in warm water. Let stand 5 minutes until foamy.",
+    "Mix flour and salt. Make a well, add yeast mixture and olive oil. Knead 10 minutes until smooth and elastic.",
+    "Cover and let rise in a warm place for 1 hour until doubled.",
+    "Preheat oven to maximum temperature (250°C/480°F) with a pizza stone inside.",
+    "Crush San Marzano tomatoes by hand. Season with salt.",
+    "Stretch dough by hand on a floured surface into a thin 30cm round.",
+    "Spread tomato sauce thinly, tear and distribute mozzarella over top.",
+    "Slide onto hot pizza stone. Bake 8-10 minutes until crust is blistered and charred.",
+    "Remove from oven, scatter fresh basil, drizzle olive oil, and serve immediately."
+  ],
+  "nutrition": {
+    "calories": 580,
+    "protein": "24g",
+    "carbs": "76g",
+    "fat": "20g"
+  },
+  "author": "Chef Antonio",
+  "publishedAt": "2024-06-05"
+}

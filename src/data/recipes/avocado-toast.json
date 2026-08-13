@@ -1,0 +1,43 @@
+{
+  "id": 3,
+  "slug": "avocado-toast",
+  "title": "Avocado Toast with Poached Eggs",
+  "description": "Creamy smashed avocado on sourdough toast topped with perfectly poached eggs, chili flakes, and microgreens. The ultimate brunch staple.",
+  "image": "/images/avocado-toast.jpg",
+  "category": "Breakfast",
+  "cuisine": "Modern",
+  "prepTime": 10,
+  "cookTime": 10,
+  "servings": 2,
+  "difficulty": "Easy",
+  "tags": ["breakfast", "brunch", "vegetarian", "healthy"],
+  "ingredients": [
+    "4 slices thick sourdough bread",
+    "2 ripe avocados",
+    "4 large eggs",
+    "1 lemon, juiced",
+    "2 tbsp white wine vinegar",
+    "1/2 tsp red chili flakes",
+    "Handful of microgreens",
+    "Extra virgin olive oil",
+    "Flaky sea salt",
+    "Freshly ground black pepper"
+  ],
+  "instructions": [
+    "Toast sourdough slices until golden and crispy.",
+    "Halve avocados, remove pits, and scoop flesh into a bowl. Add lemon juice, salt, and pepper. Mash to desired consistency.",
+    "Bring a wide shallow pot of water to a gentle simmer. Add white wine vinegar.",
+    "Crack each egg into a small cup. Create a gentle whirlpool in the water and slide eggs in. Cook 3 minutes for runny yolks.",
+    "Spread mashed avocado generously over each toast slice.",
+    "Place poached eggs on top. Drizzle with olive oil.",
+    "Garnish with chili flakes, microgreens, and flaky sea salt."
+  ],
+  "nutrition": {
+    "calories": 420,
+    "protein": "18g",
+    "carbs": "38g",
+    "fat": "24g"
+  },
+  "author": "Chef Sofia",
+  "publishedAt": "2024-02-20"
+}
