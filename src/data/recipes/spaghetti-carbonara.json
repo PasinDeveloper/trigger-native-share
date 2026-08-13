@@ -1,0 +1,40 @@
+{
+  "id": 1,
+  "slug": "spaghetti-carbonara",
+  "title": "Spaghetti Carbonara",
+  "description": "A classic Roman pasta dish made with eggs, hard cheese, cured pork, and black pepper. Creamy, rich, and utterly satisfying.",
+  "image": "/images/spaghetti-carbonara.jpg",
+  "category": "Pasta",
+  "cuisine": "Italian",
+  "prepTime": 10,
+  "cookTime": 20,
+  "servings": 4,
+  "difficulty": "Medium",
+  "tags": ["pasta", "italian", "classic", "dinner"],
+  "ingredients": [
+    "400g spaghetti",
+    "200g guanciale or pancetta, diced",
+    "4 large eggs",
+    "100g Pecorino Romano, finely grated",
+    "100g Parmesan, finely grated",
+    "2 cloves garlic",
+    "Freshly ground black pepper",
+    "Salt"
+  ],
+  "instructions": [
+    "Bring a large pot of salted water to a boil and cook spaghetti until al dente.",
+    "Meanwhile, cook guanciale in a large skillet over medium heat until crispy. Add garlic and cook 1 minute, then remove garlic.",
+    "Whisk together eggs, Pecorino Romano, and Parmesan in a bowl. Season generously with black pepper.",
+    "Reserve 1 cup pasta water. Drain pasta and immediately add to the skillet off the heat.",
+    "Pour egg mixture over pasta, tossing quickly and adding pasta water gradually to create a creamy sauce.",
+    "Serve immediately with extra cheese and black pepper."
+  ],
+  "nutrition": {
+    "calories": 620,
+    "protein": "28g",
+    "carbs": "72g",
+    "fat": "24g"
+  },
+  "author": "Chef Marco",
+  "publishedAt": "2024-01-15"
+}

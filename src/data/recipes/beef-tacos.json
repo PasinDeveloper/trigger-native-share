@@ -1,0 +1,47 @@
+{
+  "id": 4,
+  "slug": "beef-tacos",
+  "title": "Crispy Beef Street Tacos",
+  "description": "Authentic Mexican street-style tacos with spiced ground beef, fresh salsa, cotija cheese, and a squeeze of lime on warm corn tortillas.",
+  "image": "/images/beef-tacos.jpg",
+  "category": "Tacos",
+  "cuisine": "Mexican",
+  "prepTime": 15,
+  "cookTime": 20,
+  "servings": 4,
+  "difficulty": "Easy",
+  "tags": ["tacos", "mexican", "beef", "dinner", "quick"],
+  "ingredients": [
+    "500g ground beef",
+    "12 small corn tortillas",
+    "1 onion, finely diced",
+    "3 cloves garlic, minced",
+    "2 tsp chili powder",
+    "1 tsp cumin",
+    "1 tsp smoked paprika",
+    "1/2 tsp oregano",
+    "200g cotija cheese, crumbled",
+    "2 tomatoes, diced",
+    "1 jalapeño, minced",
+    "Fresh cilantro",
+    "2 limes",
+    "Salt and pepper"
+  ],
+  "instructions": [
+    "Make pico de gallo: combine diced tomatoes, jalapeño, half the onion, cilantro, lime juice, and salt. Set aside.",
+    "Cook ground beef in a skillet over high heat until browned, breaking it up.",
+    "Add remaining onion and garlic. Cook 3 minutes.",
+    "Season with chili powder, cumin, paprika, oregano, salt, and pepper. Cook 2 more minutes.",
+    "Warm tortillas directly over a gas flame or in a dry skillet until slightly charred.",
+    "Double up tortillas, fill with beef mixture, pico de gallo, and cotija cheese.",
+    "Serve with lime wedges and extra cilantro."
+  ],
+  "nutrition": {
+    "calories": 520,
+    "protein": "34g",
+    "carbs": "42g",
+    "fat": "22g"
+  },
+  "author": "Chef Carlos",
+  "publishedAt": "2024-03-05"
+}

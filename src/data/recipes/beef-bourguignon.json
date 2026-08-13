@@ -1,0 +1,47 @@
+{
+  "id": 9,
+  "slug": "beef-bourguignon",
+  "title": "Beef Bourguignon",
+  "description": "Julia Child's legendary French braised beef stew cooked low and slow in red wine with pearl onions, mushrooms, and lardons.",
+  "image": "/images/beef-bourguignon.jpg",
+  "category": "Stew",
+  "cuisine": "French",
+  "prepTime": 30,
+  "cookTime": 180,
+  "servings": 6,
+  "difficulty": "Hard",
+  "tags": ["stew", "french", "beef", "wine", "dinner"],
+  "ingredients": [
+    "1.5kg beef chuck, cut into large cubes",
+    "200g thick-cut bacon lardons",
+    "750ml bottle of red Burgundy wine",
+    "2 cups beef stock",
+    "3 tbsp tomato paste",
+    "300g pearl onions",
+    "300g button mushrooms",
+    "4 carrots, sliced",
+    "4 cloves garlic, minced",
+    "1 bouquet garni (thyme, bay leaves, parsley)",
+    "3 tbsp all-purpose flour",
+    "3 tbsp butter",
+    "Salt and pepper"
+  ],
+  "instructions": [
+    "Pat beef dry and season with salt and pepper. Brown in batches in a Dutch oven over high heat. Set aside.",
+    "Cook lardons until crispy. Add carrots and garlic, sauté 3 minutes.",
+    "Return beef to pot. Sprinkle flour over and toss to coat.",
+    "Add wine, stock, tomato paste, and bouquet garni. Bring to boil.",
+    "Cover and braise in oven at 160°C (325°F) for 2.5 hours.",
+    "Meanwhile, sauté pearl onions and mushrooms in butter until golden.",
+    "Add onions and mushrooms to the stew in last 30 minutes.",
+    "Remove bouquet garni. Adjust seasoning and serve with crusty bread or mashed potatoes."
+  ],
+  "nutrition": {
+    "calories": 720,
+    "protein": "52g",
+    "carbs": "22g",
+    "fat": "38g"
+  },
+  "author": "Chef Pierre",
+  "publishedAt": "2024-05-20"
+}
