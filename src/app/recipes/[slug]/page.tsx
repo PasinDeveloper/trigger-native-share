@@ -1,16 +1,18 @@
 import { notFound } from "next/navigation";
-import { getRecipeBySlug } from "@/lib/recipes";
+import { getRecipeBySlug, getAllRecipes } from "@/lib/recipes";
 import { Badge } from "@/components/ui/badge";
 import { ShareButton } from "@/components/ShareButton";
 import { Clock, Users, ChefHat, Flame, BarChart3 } from "lucide-react";
-import { headers } from "next/headers";
 import { difficultyColor, getCategoryEmoji } from "@/lib/recipe-utils";
 import type { Metadata } from "next";
 
-export const dynamic = "force-dynamic";
-
 interface Props {
   params: Promise<{ slug: string }>;
+}
+
+export async function generateStaticParams() {
+  const recipes = await getAllRecipes();
+  return recipes.map((r) => ({ slug: r.slug }));
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
@@ -23,19 +25,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
-async function getBaseUrl() {
-  const headersList = await headers();
-  const host = headersList.get("host") ?? "localhost:3000";
-  const proto = headersList.get("x-forwarded-proto") ?? "http";
-  return `${proto}://${host}`;
+function getBaseUrl() {
+  return process.env.NEXT_PUBLIC_SITE_URL ?? "";
 }
 
 export default async function RecipePage({ params }: Props) {
   const { slug } = await params;
-  const [recipe, baseUrl] = await Promise.all([
-    getRecipeBySlug(slug),
-    getBaseUrl(),
-  ]);
+  const recipe = await getRecipeBySlug(slug);
+  const baseUrl = getBaseUrl();
 
   if (!recipe) notFound();
 

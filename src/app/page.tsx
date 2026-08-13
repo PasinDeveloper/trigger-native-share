@@ -1,14 +1,8 @@
 import { getAllRecipes } from "@/lib/recipes";
 import { RecipeCard } from "@/components/RecipeCard";
-import { headers } from "next/headers";
 
-export const dynamic = "force-dynamic";
-
-async function getBaseUrl() {
-  const headersList = await headers();
-  const host = headersList.get("host") ?? "localhost:3000";
-  const proto = headersList.get("x-forwarded-proto") ?? "http";
-  return `${proto}://${host}`;
+function getBaseUrl() {
+  return process.env.NEXT_PUBLIC_SITE_URL ?? "";
 }
 
 export default async function HomePage() {
