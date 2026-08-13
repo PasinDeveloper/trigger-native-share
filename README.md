@@ -9,8 +9,8 @@ A production-grade recipe blog built with **Next.js 16**, **TypeScript**, **Tail
 - 📤 **Web Share API** — uses `navigator.share()` for native OS sharing on supported devices
 - 📋 **Clipboard fallback** — gracefully falls back to copying the link on unsupported browsers
 - 🛡️ **Defensive handling** — catches `AbortError` when users dismiss the share dialog
-- 🗄️ **Neon PostgreSQL** — serverless Postgres via Drizzle ORM
-- ⚡ **Dynamic rendering** — pages render on demand, keeping the build DB-free
+- 🗄️ **Neon PostgreSQL** — serverless Postgres via Drizzle ORM (optional — falls back to bundled JSON files)
+- ⚡ **Static export** — pages are prerendered at build time; deployable to GitHub Pages or any static host
 
 ## Tech Stack
 
@@ -59,6 +59,19 @@ npm run db:seed
 npm run dev
 # Open http://localhost:3000
 ```
+
+## GitHub Pages Deployment
+
+The app is automatically deployed to GitHub Pages on every push to `main` via the workflow at `.github/workflows/deploy.yml`.
+
+**Live URL:** `https://<your-username>.github.io/trigger-native-share/`
+
+To enable it in your fork:
+1. Go to **Settings → Pages** in your repository
+2. Set the source to **GitHub Actions**
+3. Push to `main` — the workflow will build and deploy automatically
+
+The static build reads recipe data from `src/data/recipes/*.json` (no database needed).
 
 ## Database Scripts
 

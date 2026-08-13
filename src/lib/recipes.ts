@@ -1,3 +1,5 @@
+import fs from "fs";
+import path from "path";
 import type { Recipe } from "@/types/recipe";
 
 async function getAllRecipesFromDb(): Promise<Recipe[]> {
@@ -30,11 +32,9 @@ function rowToRecipe(row: { id: number; slug: string; title: string; description
 }
 
 async function getAllRecipesFromJson(): Promise<Recipe[]> {
-  const fs = await import("fs");
-  const path = await import("path");
   const dir = path.join(process.cwd(), "src", "data", "recipes");
-  const files = fs.readdirSync(dir).filter((f: string) => f.endsWith(".json"));
-  const recipes: Recipe[] = files.map((file: string) => {
+  const files = fs.readdirSync(dir).filter((f) => f.endsWith(".json"));
+  const recipes: Recipe[] = files.map((file) => {
     const raw = fs.readFileSync(path.join(dir, file), "utf-8");
     return JSON.parse(raw) as Recipe;
   });

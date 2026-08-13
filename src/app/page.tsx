@@ -6,7 +6,8 @@ function getBaseUrl() {
 }
 
 export default async function HomePage() {
-  const [recipes, baseUrl] = await Promise.all([getAllRecipes(), getBaseUrl()]);
+  const recipes = await getAllRecipes();
+  const baseUrl = getBaseUrl();
 
   return (
     <div className="container mx-auto px-4 max-w-6xl py-12">
