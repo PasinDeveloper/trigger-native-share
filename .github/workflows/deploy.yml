@@ -49,8 +49,13 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          gh api --method POST /repos/${{ github.repository }}/pages -f build_type=workflow || true
-          gh api --method PUT /repos/${{ github.repository }}/pages -f build_type=workflow || true
+          # Create Pages with GitHub Actions source; ignore 409 if it already exists.
+          gh api --method POST /repos/${{ github.repository }}/pages \
+            -f build_type=workflow || true
+          # Update Pages to use GitHub Actions as the source.
+          # This will surface any real permission or API errors.
+          gh api --method PUT /repos/${{ github.repository }}/pages \
+            -f build_type=workflow
 
       - id: deployment
         uses: actions/deploy-pages@v4
